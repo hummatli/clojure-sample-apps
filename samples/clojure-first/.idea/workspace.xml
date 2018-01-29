@@ -12,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
+      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/core.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="349">
@@ -32,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="canditionals.clj" pinned="false" current-in-tab="false">
+      <file leaf-file-name="canditionals.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/canditionals.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="187">
+              <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -62,9 +62,9 @@
         <option value="$PROJECT_DIR$/src/first.clj" />
         <option value="$PROJECT_DIR$/src/test/first.clj" />
         <option value="$PROJECT_DIR$/src/sample/first.clj" />
-        <option value="$PROJECT_DIR$/src/sample/canditionals.clj" />
         <option value="$PROJECT_DIR$/src/sample/functions.clj" />
         <option value="$PROJECT_DIR$/src/sample/core.clj" />
+        <option value="$PROJECT_DIR$/src/sample/canditionals.clj" />
       </list>
     </option>
   </component>
@@ -155,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Clojure Application.sample.core">
+  <component name="RunManager" selected="Clojure Application.sample.canditionals">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -295,9 +295,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Clojure Application.sample.core" />
-        <item index="1" class="java.lang.String" itemvalue="Clojure Application.sample.functions" />
-        <item index="2" class="java.lang.String" itemvalue="Clojure Application.sample.canditionals" />
+        <item index="0" class="java.lang.String" itemvalue="Clojure Application.sample.canditionals" />
+        <item index="1" class="java.lang.String" itemvalue="Clojure Application.sample.core" />
+        <item index="2" class="java.lang.String" itemvalue="Clojure Application.sample.functions" />
         <item index="3" class="java.lang.String" itemvalue="Clojure Application.sample.first" />
         <item index="4" class="java.lang.String" itemvalue="Clojure Application.test.first" />
       </list>
@@ -372,14 +372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/canditionals.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/functions.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
@@ -392,6 +384,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
           <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/canditionals.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
           <folding />
         </state>
       </provider>
