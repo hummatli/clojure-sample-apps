@@ -26,3 +26,21 @@
 
 ;Calling functuin
 (func-with-binding 4)
+
+
+;Use regular expression
+(println (re-find #"ca+t" "a caaaaat and dog"))
+
+;Symbols
+(def a 42)
+(println a)
+
+(println ('a {'a 32, 'b 22}))
+
+;Keywords
+(println (:c {:c 32, :d 22}))
+
+;Functions for read and evaluate (repl)
+(println (eval (read-string "(+ 1 2 3)")))
+
+
