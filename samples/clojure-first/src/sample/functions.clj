@@ -33,7 +33,27 @@
 (println (get-x))
 
 ;Function with return
-
 (defn return_func []
   "This is return value")
 (println (return_func))
+
+
+;Function returning function
+(defn make-a-fn-that-knows-the-secret [password]
+  (let [the-secret password]
+    (fn [password]
+      (if (= password the-secret)
+        :ok
+        :fail!))))
+
+;Set returning function and call it after
+(def check-password (make-a-fn-that-knows-the-secret "cats"))
+(println (check-password "cats"))
+(println (check-password "dogs"))
+
+;Function direct call
+(println ((make-a-fn-that-knows-the-secret "cats") "dogs"))
+(println ((make-a-fn-that-knows-the-secret "dogs") "dogs"))
+
+;Show returning function metadata
+(println (meta #'check-password))
